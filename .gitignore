@@ -1,0 +1,34 @@
+# Dataset (too large for GitHub)
+data/
+*.zip
+*.tar.gz
+
+# Model weights
+*.h5
+*.pt
+*.pth
+*.pkl
+*.ckpt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Environment variables / secrets
+.env
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large outputs
+outputs/*.npy
+outputs/*.npz
